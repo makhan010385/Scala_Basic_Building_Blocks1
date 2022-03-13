@@ -1,18 +1,16 @@
-class Scala_try_catch {
+class Scala_Exception  {
   def divide(a:Int, b:Int) = {
-    try{
-      a/b
-    }catch{
-      case e: Exception=>println(e)
-    }
+    a/b             // Exception occurred here
     println("Rest of the code is executing...")
   }
+
 }
-object  Scala_try_obj
+
+object  Scala_Exception_obj
 {
 
   def main(args: Array[String]): Unit = {
-    var e = new Scala_try_catch()
+    var e = new Scala_Exception()
     e.divide(100,0)
 
   }
