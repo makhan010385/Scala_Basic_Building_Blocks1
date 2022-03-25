@@ -1,4 +1,5 @@
-class Clousre_feature {
+class Clousre_feature
+{
   var x = 20
   def function_name(y:Int)
   {
