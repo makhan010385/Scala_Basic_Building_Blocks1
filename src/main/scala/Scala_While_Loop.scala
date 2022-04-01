@@ -1,14 +1,15 @@
 class Scala_While_Loop
-{
+{ var a :Int=11
 def while_loop()
-  { var a :Int=1
+  {
     while( a <= 10)
     {
-      println(a)
+
       a=a+1
     }
-  }
 
+  }
+  println(a)
 }
 object  Scala_While_Loop_obj {
 

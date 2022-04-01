@@ -1,6 +1,6 @@
 object Scala_Pattern {
   def main(args: Array[String]): Unit = {
-    var a = 1
+    var a = 3
     a match {
       case 1 => println("One")
       case 2 => println("Two")
