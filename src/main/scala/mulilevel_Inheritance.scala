@@ -1,0 +1,3 @@
+class mulilevel_Inheritance {
+
+}
