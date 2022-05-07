@@ -1,3 +1,0 @@
-class Traits_new {
-
-}
